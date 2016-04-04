@@ -1,0 +1,12 @@
+{
+	"nativescript": {
+		"id": "com.coolapps.sbar",
+		"tns-android": {
+			"version": "1.7.1"
+		}
+	},
+	"dependencies": {
+		"nativescript-telerik-ui-pro": "^1.0.1",
+		"tns-core-modules": "1.7.1"
+	}
+}

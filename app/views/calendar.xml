@@ -1,0 +1,24 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      xmlns:rc="nativescript-telerik-ui-pro/calendar"
+      xmlns:lv="nativescript-telerik-ui-pro/listview"
+      loaded="pageLoaded"
+      navigatingFrom="navigatingFrom">
+  <GridLayout rows="auto, *, 200">    
+      <rc:RadCalendar id="calendar"
+                      row="1"      
+                      eventSource="{{ events }}"                      
+                      selectionMode="{{ selectionMode }}"
+                      maxDate="{{ maxDate }}"
+                      dateSelected="{{ daySelected }}"
+                      dateDeselected="{{ dayDeselected }}"/>
+      <StackLayout row="2">      
+        <SegmentedBar selectedIndexChanged="{{ sexSelected }}" selectedIndex="{{ selectedDay, selectedDay.sex }}">
+            <SegmentedBar.items>
+                <SegmentedBarItem title="No" />
+                <SegmentedBarItem title="Unprotected" />
+                <SegmentedBarItem title="Protected" />
+            </SegmentedBar.items>
+        </SegmentedBar>            
+      </StackLayout>
+  </GridLayout>
+</Page>

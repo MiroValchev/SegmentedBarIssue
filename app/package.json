@@ -1,0 +1,23 @@
+{
+	"name": "Sbar",
+	"main": "app.js",
+	"version": "1.0.0",
+	"author": {
+		"name": "Cool Apps"		
+	},
+	"description": "Nativescript hello-world project template",
+	"license": "BSD",
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/coolappsbg/melady"
+	},
+	"bugs": {
+		"url": "https://bitbucket.org/coolappsbg/melady"
+	},
+	"homepage": "https://bitbucket.org/coolappsbg/melady",
+	"android": {
+		"v8Flags": "--expose_gc"
+	},
+	"readme": "ERROR: No README data found!"	
+}
