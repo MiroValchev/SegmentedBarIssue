@@ -12,7 +12,7 @@
                       dateSelected="{{ daySelected }}"
                       dateDeselected="{{ dayDeselected }}"/>
       <StackLayout row="2">      
-        <SegmentedBar selectedIndexChanged="{{ sexSelected }}" selectedIndex="{{ selectedDay, selectedDay.sex }}">
+        <SegmentedBar selectedIndexChanged="{{ sexSelected }}" selectedIndex="{{ selectedDay.sex }}">
             <SegmentedBar.items>
                 <SegmentedBarItem title="No" />
                 <SegmentedBarItem title="Unprotected" />
